@@ -11,7 +11,7 @@ You can use this as a starting point for when you're trying to build some super 
 3. Run the little [express](http://expressjs.com/) server included to get you started
 
     ```bash
-    npm run server
+    npm start
     ```
 4. Hit the authorize URL on the local server, which is will be [http://localhost:3000/authorize](http://localhost:3000/authorize) by default
 5. Log in with your Tumblr account and click "Allow"
