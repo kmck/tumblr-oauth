@@ -1,0 +1,8 @@
+{
+  "name": "Tumblr OAuth demo",
+  "description": "Do the three-legged OAuth dance",
+  "repository": "https://github.com/kmck/tumblr-oauth",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["tumblr", "oauth"],
+  "image": "heroku/nodejs"
+}
