@@ -1,0 +1,32 @@
+{
+  "name": "tumblr-oauth",
+  "version": "0.0.1",
+  "description": "Do the three-legged OAuth dance",
+  "main": "server.js",
+  "scripts": {
+    "db": "mkdir -p db && mongod --dbpath=db --port 27017",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmck/tumblr-oauth.git"
+  },
+  "keywords": [
+    "tumblr",
+    "oauth"
+  ],
+  "author": "Keith McKnight",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kmck/tumblr-oauth/issues"
+  },
+  "homepage": "https://github.com/kmck/tumblr-oauth#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "minimist": "^1.2.0",
+    "mongodb": "^2.1.18",
+    "oauth": "^0.9.14",
+    "tumblr.js": "^1.1.0"
+  }
+}
